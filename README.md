@@ -25,6 +25,8 @@ Siv3D-kun ![Siv3D-kun](https://raw.githubusercontent.com/voidproc/sivbonsai/mast
 
 ## スクリーンショット
 
+![mov](https://raw.githubusercontent.com/voidproc/sivbonsai/master/sivbonsaidemo.gif)
+
 ![ss1](https://raw.githubusercontent.com/voidproc/sivbonsai/master/screenshot1.png)
 
 ![ss2](https://raw.githubusercontent.com/voidproc/sivbonsai/master/screenshot2.png)
