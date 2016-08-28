@@ -67,4 +67,7 @@ Siv3D-BEEEEEEEAM !!!
 
 ## LICENSE
 
-This software is released under the MIT License.
+* This software is released under the MIT License.
+
+* This work features an adaptation of Siv3D-kun, ©2015 Siv3D, licensed under a [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/)
+
