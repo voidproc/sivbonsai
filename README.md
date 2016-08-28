@@ -14,14 +14,23 @@
 
 キーボードのみで操作します．
 
-Siv3D-kun ![Siv3D-kun](https://raw.githubusercontent.com/voidproc/sivbonsai/master/siv3dkun.gif) を操作して、育ち行く盆栽を外敵から守ろう．
+Siv3D-kun ![Siv3D-kun](https://raw.githubusercontent.com/voidproc/sivbonsai/master/siv3dkun.gif) を操作して、盆栽を外敵から守りましょう．
 
 外から投げ込まれる石ころやボールが、盆栽や Siv3D-kun に当たるとゲームオーバーです．
 
+時間の経過とともに盆栽が育ち（巨大化し）、価値が高まっていきます．
+
+#### 操作：
+
 * 移動：左矢印（←）、右矢印（→）キー
-* Siv3D-beam： スペースキー
+* Siv3D-beam（以下ビーム）： スペースキー
 	* スペースキー長押しで、撃ち続けられます．
-* Siv3D-beam の回転： A キー、D キー
+* ビームの回転： A キー、D キー
+
+#### 細かい仕様：
+
+* ビームを撃ち続けると、ビーム<ruby>力<rp>（</rp><rt>りょく</rt><rp>）</rp></ruby>が落ちていきます．ビームを撃つのをやめると回復していきます．
+* ビームを撃っている間は、盆栽の価値が上がりにくくなります．
 
 ## スクリーンショット
 
@@ -33,6 +42,10 @@ Siv3D-kun ![Siv3D-kun](https://raw.githubusercontent.com/voidproc/sivbonsai/mast
 
 Siv3D-BEEEEEEEAM !!!
 
+![ss2](https://raw.githubusercontent.com/voidproc/sivbonsai/master/collisions.png)
+
+当たり判定はこうなっています．
+
 ## ダウンロード
 
 <https://github.com/voidproc/sivbonsai/releases/download/v1.0/sivbonsai_1.0.zip> (x86版)
@@ -42,6 +55,7 @@ Siv3D-BEEEEEEEAM !!!
 * Windows 7 SP1 64bit
 * Visual Studio 2015 Community
 	* GitHub Extension
+* [Siv3D](http://play-siv3d.hateblo.jp/) March 2016
 * 使用フォント
 	* [8bitoperator JVE](http://fontstruct.com/fontstructions/show/534034/8bitoperator) / Copyright nipcen 2011 / [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 * その他使用ソフト
