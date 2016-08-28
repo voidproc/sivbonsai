@@ -64,3 +64,7 @@ Siv3D-BEEEEEEEAM !!!
 ## 感想
 
 * Siv3D-chan の登場が期待される．
+
+## LICENSE
+
+This software is released under the MIT License.
